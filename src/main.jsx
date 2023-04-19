@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Navbar } from "./components/routes/Navbar";
-import { Home } from "./components/routes/Home";
-import { Contact } from "./components/routes/Contact";
-import { Info } from "./components/routes/Info";
-import { ChatGPT } from "./components/routes/Chatbox";
-import { Quiz } from "./components/routes/Quiz"; 
+import { App } from "./App";
+import { Navbar } from "../src/routes/Navbar";
+import { Contact } from "../src/routes/Contact";
+import { Info } from "../src/routes/Info";
+import { ChatGPT } from "../src/routes/Chatbox";
+import { Quiz } from "../src/routes/Quiz"
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -13,7 +13,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
   },
 
   {

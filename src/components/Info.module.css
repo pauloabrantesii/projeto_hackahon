@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
 
 
+
 .content {
-  
-  background: rgba(255, 255, 255,0.02);;
-  width:1100px;
-  height:600px;
+  background: rgba(255, 255, 255,0.02);
+  width:60vw;
+  height:70vh;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 1.6vw;
   display:column;
   border: 0.1px solid rgba(255, 255, 255,0.3);
-  
-  
+  font-size:10rem;
 }
 
 .missao {
@@ -23,26 +22,26 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:14px;
+  font-size:8.7%;
   background: rgb(255,0,0,0.7);
-  width:200px;
-  height:30px;
+  width:10.8vw;
+  height:3.5vh;
   color: rgb(255, 255, 255, 0.9);
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 2.35vh;
 }
 
 .containertitulo {
   margin:auto;
   display:column;
-  width:900px;
-  height:300px;
+  width:86.4%;
+  height:50%;
   justify-content: center;
 }
 
 .titulo {
-  padding-top: 40px;
-  font-size: 2.5rem;
+  padding-top: 4.7vh;
+  font-size: 25%;
   text-align: center;
   justify-content: center;
   font-family: "Inter", sans-serif;
@@ -51,8 +50,8 @@
 }
 
 .subtitulo {
- font-size:23px;
- margin-top: 40px;
+ font-size:14.3%;
+ margin-top: 4.7vh;
  text-align: center;
  font-weight: 500;
  color: rgb(255, 255, 255, 0.7);
@@ -61,34 +60,39 @@
 
 .containertopicos {
   margin:auto;
+  padding-top: 2%;
   display:flex;
-  width:900px;
-  height:200px;
+  width:90%;
+  height:29%;
+  justify-content:center;
+  align-items:center;
+  padding-left:3%;
+  
   
 }
 
 .containerfacil {
   display:block;
-  width: 300px;
-  height: 120px;
-  padding:10px;
-  margin-left:20px;
+  width: 30%;
+  height: 14.15vh;
+  padding:1.1vh;
+  margin-left:1vw;
 }
 
 
 .facil {
   display:block;
-  font-size:24px;
+  font-size:15%;
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 1.17vh;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255, 0.8);
 }
 
 .facilsub {
-  display:block;
-  font-size:16px;
+  
+  font-size:10%;
   width:90%;
   text-align:justify;
   color: rgb(255, 255, 255, 0.7);
@@ -99,26 +103,25 @@
 
 .containeruniversal {
   display:block;
-  width: 300px;
-  height: 120px;
-  padding:10px;
-  margin-left:30px;
+  width: 30%;
+  height: 14.15vh;
+  padding:1.1vh;
+  margin-left:1vw;
 
 }
 
 .universal {
-  display: inline-block;
-  font-size:24px;
+  display: block;
+  font-size:15%;
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 1.17vh;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255, 0.8);
 }
 
 .universalsub {
-  display:inline-block;
-  font-size:16px;
+  font-size:10%;
   width:80%;
   text-align:justify;
   color: rgb(255, 255, 255, 0.7);
@@ -129,25 +132,25 @@
 
 .containeracessivel {
   display:block;
-  width: 300px;
-  height: 120px;
-  padding:10px;
-  margin-left:40px;
+  width: 30%;
+  height: 14.15vh;
+  padding:1.1vh;
+  margin-left:1vw;
 }
 
 .acessivel {
-  display: inline-block;
-  font-size:24px;
+  display: block;
+  font-size:15%;
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 0.54vh;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255, 0.8);
 }
 
 .acessivelsub {
-  display:inline-block;
-  font-size:16px;
+  
+  font-size:10%;
   width:80%;
   text-align:justify;
   color: rgb(255, 255, 255, 0.7);
@@ -155,3 +158,150 @@
   font-weight: 500;
   font-family: "Inter", sans-serif;
 }
+
+
+@media (max-width: 1550px) {
+ .content {
+  font-size:10rem;
+  height:auto;
+  width:80%;
+   margin:auto;
+ }
+}
+
+@media (max-width: 1260px) {
+  .content {
+   font-size:8rem;
+   height:auto;
+   width:80%;
+    margin:auto;
+  }
+ }
+
+ @media (max-width: 950px) {
+  .content {
+    font-size:7rem;
+    height:auto;
+    width:80%;
+    margin:auto;
+    padding-bottom:4%;
+  }
+ }
+
+ @media (max-width: 670px) {
+  .content {
+    font-size:6.5rem;
+    height:auto;
+    width:80%;
+    margin:auto;
+    padding-bottom:10%;
+  }
+ }
+
+ @media (max-width: 625px) {
+  .content {
+    font-size:6.5rem;
+    height:auto;
+    width:80%;
+    margin:auto;
+    margin-top: 10%;
+    padding-bottom:10%;
+  }
+
+  .containertopicos {
+    margin:auto;
+    padding-top: 2%;
+    display:grid;
+    width:90%;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    padding-left:3%;
+  }
+  .containerfacil {
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:1.1vh;
+    margin-left:1vw;
+  }
+  .containeruniversal {
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:1.1vh;
+    margin-left:1vw;
+  
+  }
+
+  .containeracessivel {
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:1.1vh;
+    margin-left:1vw;
+  }
+
+  .facilsub,
+  .universalsub,
+  .acessivelsub {
+    font-size: 13%;
+  }
+
+ }
+
+ @media (max-width: 375px) {
+  .content {
+    font-size:6.5rem;
+    height:auto;
+    width:80%;
+    margin:auto;
+    margin-top: 10%;
+    padding-bottom:10%;
+  }
+
+  .missao {
+    width:30%;
+  }
+
+  .containertopicos {
+    margin:auto;
+    padding-top: 2%;
+    display:grid;
+    width:90%;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    padding-left:3%;
+  }
+  .containerfacil {
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:1.1vh;
+    margin-left:1vw;
+  }
+  .containeruniversal {
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:1.1vh;
+    margin-left:1vw;
+  
+  }
+
+  .containeracessivel {
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:1.1vh;
+    margin-left:1vw;
+  }
+
+  .facilsub,
+  .universalsub,
+  .acessivelsub {
+    display:none;
+  }
+
+ }

@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import style from "../Navbar.module.css";
+import style from "../components/Navbar.module.css";
 import { BsGithub, BsChevronDown, BsChevronUp } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ export function Navbar() {
     },
   ];
 
-  console.log(showDevOptions);
+ 
   const handleCloseDropdown = useCallback(() => {
     setShowDevOptions(false);
   }, [showDevOptions]);
@@ -69,10 +69,10 @@ export function Navbar() {
                 showDevOptions ? style.active : ""
               }`}
             >
-              {" "}
-              Developers{" "}
+              
+              Developers
               <span className={style.chevronIcon}>
-                {" "}
+               
                 {showDevOptions ? <BsChevronUp /> : <BsChevronDown />}
               </span>
             </a>
@@ -82,7 +82,7 @@ export function Navbar() {
                 {data.map((item) => (
                   <li key={item.id}>
                     <a href={item.url} target={item.typeOpenUrl}>
-                      {" "}
+                    
                       <BsGithub /> &nbsp; {item.name}
                     </a>
                   </li>

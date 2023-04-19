@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import style from "../Quiz.module.css";
-import { Jsquestions } from "../Jsquestions.jsx";
-import { Pyquestions } from "../Pyquestions.jsx";
-import { Cssquestions } from "../CssQuestions";
-import { Htmlquestions } from "../Htmlquestions";
-import { Reactquestions } from "../Reactquestions";
+import style from "../components/Quiz.module.css";
+import { Jsquestions } from "../components/Jsquestions";
+import { Pyquestions } from "../components/Pyquestions";
+import { Cssquestions } from "../components/CssQuestions";
+import { Htmlquestions } from "../components/Htmlquestions";
+import { Reactquestions } from "../components/Reactquestions";
 import { BsFillCaretLeftSquareFill } from "react-icons/bs";
 import { Navbar } from "./Navbar";
 

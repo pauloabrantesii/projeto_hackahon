@@ -1,4 +1,4 @@
-import style from "../Info.module.css";
+import style from "../components/Info.module.css";
 import { Navbar } from "./Navbar";
 import { ImBooks , ImSphere , ImEyePlus } from "react-icons/im";
 

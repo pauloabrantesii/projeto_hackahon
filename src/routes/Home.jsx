@@ -1,8 +1,7 @@
-import { ChatGPT } from "./Chatbox";
-import style from "../Home.module.css";
-import React, { useState } from "react";
-import { BsSlack, BsJoystick } from "react-icons/bs";
 
+import style from "../components/Home.module.css";
+import React from "react";
+import { BsSlack, BsJoystick } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { Navbar } from "./Navbar";
 

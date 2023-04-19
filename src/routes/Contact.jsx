@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "../Contact.module.css";
+import style from "../components/Contact.module.css";
 import { Navbar } from "./Navbar";
 import emailjs from "@emailjs/browser";
 

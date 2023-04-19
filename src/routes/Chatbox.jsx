@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import style from "../Chatbox.module.css";
+import style from "../components/Chatbox.module.css";
 import { BsFillSendFill, BsEraserFill } from "react-icons/bs";
 import { Navbar } from "./Navbar";
-import { API_KEY } from "../../../config";
+import { API_KEY } from "../../config"
 
 export function ChatGPT() {
   const [message, setMessage] = useState("");
@@ -47,7 +47,7 @@ export function ChatGPT() {
         setMessage("");
       });
   }
-  // deletar chat
+
   function handleClear() {
     setHistory([]);
   }
