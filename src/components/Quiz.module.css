@@ -1,9 +1,10 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
 
 .quizcontainerstart {
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 42vw;
+  height: 67vh;
   background-image: url("https://i.im.ge/2023/04/08/IK6Yvp.backquiz.png");
   background-size: cover;
   border: 0.1vw solid #5e548e;
@@ -23,8 +24,8 @@
   text-align: justify;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  width: 42vw;
-  height: 67vh;
+  width:100%;
+  height:80%
 }
 
 .middle {
@@ -38,10 +39,10 @@
   position: relative;
   display: block;
   color: white;
-  font-size: 1vw;
-  font-family: "montserrat";
+  font-size: 1.2vw;
+  font-family: "inter" , sans-serif;
   text-decoration: none;
-  margin-top: 1vh;
+  margin-top: 2vh;
   box-shadow: 0 0 0.9px 0 #fff;
   border: none;
   border-radius: 10px;
@@ -106,7 +107,8 @@
 }
 
 .choice {
-  font-family: "montserrat";
+  font-family: "montserrat" , sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   padding: 0.5vw;
   font-size: 1.5vw;
@@ -156,19 +158,61 @@
   border: none;
 }
 
-.return:hover {
-  transform: scale(1.2);
+@media (max-width: 800px) {
+  .quizstart {
+    width: 42vw;
+    height: 67vh;
+  }
+  .programacao {
+    font-size: 2.8vw;
+    gap: 4vh;
+    width: 35vw;
+    height: 5vh;
+    margin-top: 3vh;
+    box-shadow: 0 0 0.9px 0 #fff;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    background-color: #7928ca;
+  }
+
+  .title {
+    margin-top: 3.5vh;
+    font-size: 8vw;
+  }
+
+  .welcome {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+  }
+
+  .choice {
+    font-size: 2.5vw;
+    margin-top: 0.6vh;
+  }
+
+  .icon {
+    font-size: 1.5vw;
+  }
+
+  .return {
+    font-size: 14px;
+    margin-bottom: 40vh;
+    width: auto;
+  }
 }
 
 @media (max-width: 425px) {
   .quizstart {
-  width: 42vw;
-  height: 67vh;
+    width: 42vw;
+    height: 67vh;
   }
   .programacao {
-    font-size: 2vw;
-    padding-bottom:4vh;
-    
+    font-size: 2.8vw;
+    gap: 4vh;
     width: 35vw;
     height: 5vh;
     margin-top: 3vh;

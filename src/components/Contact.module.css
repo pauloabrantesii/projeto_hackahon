@@ -240,23 +240,23 @@
 
 @media (max-width: 650px) {
   .containercontato {
-    width: 90%; /* Ocupa toda a largura disponível */
-    height: 90vh; /* Ajusta a altura conforme o conteúdo */
-    padding-top: 1rem; /* Diminui o padding */
-    border-radius: 0; /* Remove o border-radius */
+    width: 90%; 
+    height: 90vh; 
+    padding-top: 1rem; 
+    border-radius: 0; 
     display:grid;
     margin:auto;
     margin-top: 5%;
     
   }
   .helpcontainer {
-    width: 100%; /* Ocupa toda a largura disponível */
-    height: auto; /* Ajusta a altura conforme o conteúdo */
+    width: 100%; 
+    height: auto; 
     margin-bottom: 1rem; 
   }
   .containeremail {
     width: 100%; 
-    height: auto; /* Ajusta a altura conforme o conteúdo */
+    height: auto; 
     margin-bottom: 1rem; 
   }
   .containertitle {
@@ -338,8 +338,10 @@
     border-radius:8px;
   }
   .button {
-    width: 100%;
+    width: 60%;
     font-size: 0.8rem;
+    justify-content: center;
+    margin:auto;
   }
 
   .titlehelp {
@@ -348,5 +350,10 @@
 
   .titleform{
     font-size: 20px;
+  }
+
+  .subhelp {
+    font-size: 14px;
+    
   }
 }

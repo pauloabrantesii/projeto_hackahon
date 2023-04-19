@@ -26,7 +26,6 @@ export function Home() {
             </h2>
             <div>
             <Link to="Chat" className={style.journey}>
-              {" "}
               <BsSlack /> &nbsp; Chat de aprendizagem
             </Link>
             </div>
@@ -36,7 +35,6 @@ export function Home() {
 
         <div className={`${style.inicar} ${style.quiz}`}>
           <Link to="Quiz" className={style.buttonquiz}>
-            {" "}
             <BsJoystick /> &nbsp; Teste Seu Conhecimento
           </Link>
         </div>
