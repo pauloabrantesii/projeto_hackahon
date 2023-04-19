@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
+
+
+.navbar {
+  background: transparent;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0.6rem;
+  color: rgb(245, 245, 245, 0.6);
+  margin-bottom: 0.6rem;
+}
+
+.navbar li {
+  text-decoration: none;
+  padding: 0 1.2rem;
+  margin-top: 0.3rem;
+  border: none; 
+}
+
+.navbar ul li a {
+  display: flex;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: rgb(245, 245, 245, 0.6);
+  
+}
+
+.homebutton  {
+  display: flex;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  
+}
+
+.navbar li a {
+  color: rgb(245, 245, 245, 0.6);
+  text-decoration: none;
+}
+.contato :hover ,
+.sobre :hover,
+.developers :hover,
+.homebutton :hover {
+  color: #fff;
+}
+
+
+.developers {
+  width: 100%;
+  height: 1.56rem;
+  padding-left: 1rem;
+}
+
+.developers.active,
+.chevronIcon.active {
+  background: rgb(192, 192, 192, 0.020);;
+  border: 0.5px solid rgb(192, 192, 192, 0.2);
+  
+  border-radius: 0.75rem;
+  
+  
+}
+
+.chevronIcon {
+  font-size: 0.75rem;
+  align-items: center;
+  margin-top: 2px;
+  display: flex;
+}
+
+.lista {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.87rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  width: 100%;
+  height: 6.56rem;
+  background: rgb(192, 192, 192, 0.03);
+  
+  border-radius: 0.75rem;
+}
+
+.lista li {
+  padding-left: 1.56rem;
+}
+
+
+@media (max-width: 600px){
+  .navbar li {
+    text-decoration: none;
+    padding: 0 0.5rem;
+    margin-top: 0.3rem;
+    border: none; 
+  }
+}
+
+
